@@ -1,0 +1,208 @@
+
+.panel {
+    margin-bottom: 1.42857rem;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-content {
+    background: white;
+    width: 100%;
+    overflow-x: scroll;
+    min-height: inherit;
+}
+
+/*.panel .table {*/
+    /*border-top: 1px solid #ddd;*/
+/*}*/
+
+.panel.table {
+    margin-bottom: 0;
+}
+
+.table > caption + thead > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > th, .table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+.table tr td:first-child, .table tr th:first-child {
+    text-align: left !important;
+}
+
+.dataTables_filter{
+    display:none;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody{
+    border:0;
+}
+
+.table thead tr th {
+    font-size: 12px;
+    border-bottom-width: 0;
+    color: #757575;
+    padding: 7.5px 15px;
+}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+}
+
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+    line-height: 1.42857;
+    vertical-align: top;
+    border-top: none;
+}
+
+.table > thead td, .table > tbody th, .table > tbody tr {
+    line-height: 1.42857;
+    vertical-align: top;
+    border-top: 1px solid #ebebeb !important;
+}
+
+.table tr th {
+    font-family: "CS W15 eP Bold v3", Arial, Helvetica, sans-serif;
+}
+
+th {
+    text-align: left;
+}
+
+.table tbody tr th {
+    border-right: 1px solid #f6f6f6;
+}
+
+.table tbody tr th {
+    font-size: 14px;
+    color: #20252b;
+}
+
+.table tbody tr td:last-child, .table thead tr th:last-child {
+    text-align: right;
+}
+
+.table .table__exc-code {
+    display: block;
+    font-weight: normal;
+    font-family: "CS W15 eP Light v3", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+/*tr:after {*/
+    /*content: ' ';*/
+    /*display: block;*/
+    /*visibility: hidden;*/
+    /*clear: both;*/
+/*}*/
+
+tbody {
+    height: 425px;
+}
+
+tbody td, thead th {
+    width: 200px;
+}
+
+.table > tbody > tr > td {
+    border-bottom: 1px solid #ebebeb !important;
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid #ebebeb !important;
+}
+
+thead {
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+tbody tr td {
+    padding: 5px 10px 5px 15px;
+    margin-top: 10px;
+}
+
+tbody tr td.lastprice, tbody tr td.dividedyeild, tbody tr td.performanceytd {
+    border-left: 1px solid #dcdcdc;
+}
+
+tbody tr td.daychange, tbody tr td.performanceytd {
+    border-right: 1px solid #dcdcdc;
+}
+
+tbody tr td .fadeColumn {
+    color: #bcbcbc;
+    font-size: 13px;
+}
+
+tbody tr td:first-child span {
+    font-family: "CS W15 eP Bold v3", Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 13px;
+}
+
+tbody tr td:first-child span:nth-child(2) {
+    font-size: 12px;
+}
+
+tbody tr td:first-child span:last-child {
+    font-size: 11px;
+    color: #bcbcbc;
+}
+
+tbody tr td:last-child span {
+    font-family: "CS W15 eP Bold v3", Arial, Helvetica, sans-serif;
+    color: #757575;
+    font-size: 13px;
+}
+
+tbody tr td:last-child span:nth-child(2) {
+    font-size: 12px;
+}
+
+tbody tr td:last-child span:last-child {
+    font-size: 11px;
+    color: #bcbcbc;
+}
+
+tbody tr td:first-child {
+    border-right: 1px solid #dcdcdc;
+}
+
+thead tr th:first-child {
+    border-right: 1px solid #dcdcdc;
+}
+
+tbody tr td:last-child span.red {
+    color: #bb4444;
+}
+
+tbody tr td:last-child span.red i {
+    border-color: #bb4444 transparent transparent transparent;
+    border-width: 12.11px 7px 0px 7px;
+    border-style: solid;
+    display: inline-block;
+    margin-top: 3.5px;
+}
+
+tbody tr td:last-child span.green {
+    color: #389858;
+}
+
+tbody tr td:last-child span.green i {
+    border-color: transparent transparent #389858 transparent;
+    border-width: 0px 7px 12px 7px;
+    border-style: solid;
+    display: inline-block;
+    margin-top: 3.5px;
+}
+
+.dataTables_scrollBody{
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+.row{
+    margin-left:0 !important;
+    margin-right:0 !important;
+}
