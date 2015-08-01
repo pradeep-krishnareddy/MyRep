@@ -1,0 +1,69 @@
+<ng-transclude></ng-transclude>
+    <table id="showcdase-fixedcolumns" datatable="ng" dt-options="adsdhsdhkdk.dtOptions" class="table" cellspacing="0" width="3200px">
+
+        <thead>
+        <tr>
+            <th ng-repeat="headerItem in thead">Column: {{$index+1}}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]">
+            <td class="headcol">
+                <span class="row">CVX</span>
+                <span class="row">positionItem</span>
+            </td>
+            <td>
+                <span class="row fadeColumn">positionItem&nbsp;1.6K</span>
+            </td>
+            <td>
+                <span class="row fadeColumn">positionItem</span>
+            </td>
+            <td class="lastprice">
+                <span class="row">positionItem</span>
+                <span class="row">positionItem</span>
+            </td>
+            <td>
+                <span class="row">69.49/68.51</span>
+            </td>
+            <td class="daychange">
+                <span class="row pi pi--up" ng-class="{'red':positionItem.changeInValue<0,'green':positionItem.changeInValue>=0}"> positionItem </span>
+                <span class="row pi pi--up" ng-class="{'red':positionItem.changeInValueInPercentage<0,'green':positionItem.changeInValue>=0}"> positionItem <i></i> </span>
+            </td>
+            <td>
+                <span class="row fadeColumn">positionItem</span>
+            </td>
+            <td>
+                <span class="row">69.33</span>
+                <span class="row">06.03.2014</span>
+            </td>
+            <td>
+                <span class="row">69.49/68.51</span>
+            </td>
+            <td class="dividedyeild">
+                <span class="row">5.50%</span>
+                <span class="row">Ex Date: 06.03.2014</span>
+            </td>
+            <td>
+                <span class="row">0.3ops</span>
+            </td>
+            <td>
+                <span class="row">70%</span>
+            </td>
+            <td class="performanceytd">
+                <span class="row pi pi--up" ng-class="{'red':positionItem.changeInValue<0,'green':positionItem.changeInValue>=0}"> positionItem </span>
+                <span class="row pi pi--up" ng-class="{'red':positionItem.changeInValueInPercentage<0,'green':positionItem.changeInValue>=0}"> positionItem <i></i> </span>
+            </td>
+            <td>
+                <span class="row">Seeking Alpha</span>
+            </td>
+            <td>
+                <span class="row fadeColumn">Equities</span>
+            </td>
+            <td>
+                <span class="row fadeColumn">Related Instruments</span>
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+

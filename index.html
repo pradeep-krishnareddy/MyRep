@@ -1,0 +1,42 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>angular-datatables</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="jquery.dataTables.min.css">
+	<link rel="stylesheet" href="dataTables.fixedColumns.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body ng-app="columnPinningSpike">
+
+
+    <script src="jquery.js"></script>
+	<script src="angular.js"></script>
+	<script src="jquery.dataTables.js"></script>
+    <script src="dataTables.fixedColumns.js"></script>
+    <script src="angular-datatables.js"></script>
+    <script src="angular-datatables.util.js"></script>
+    <script src="angular-datatables.options.js"></script>
+    <script src="angular-datatables.instances.js"></script>
+    <script src="angular-datatables.factory.js"></script>
+    <script src="angular-datatables.renderer.js"></script>
+    <script src="angular-datatables.directive.js"></script>
+    <script src="angular-datatables.fixedcolumns.js"></script>
+
+    <script src="app.js"></script>
+
+    <div class="panel indices" ng-controller="columnPinCtrl as adsdhsdhkdk">
+        <div class="panel-content">
+            <custom-data-table>
+                <custom-table-scroll style="display:none;" scroll-x="0" offset-x="4" inner-table-container="showcdase-fixedcolumns" outer-table-container="dataTables_scrollBody"></custom-table-scroll>
+            </custom-data-table>
+        </div>
+
+    </div>
+</body>
+</html>
